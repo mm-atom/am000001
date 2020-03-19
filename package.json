@@ -39,12 +39,22 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
+		"@babel/core": "latest",
+		"@types/react": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"del-cli": "latest",
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
+		"react": "latest",
+		"react-native": "latest",
+		"react-navigation": "latest",
 		"typescript": "next"
+	},
+	"peerDependencies": {
+		"react": "*",
+		"react-native": "*",
+		"react-navigation": "*"
 	}
 }
