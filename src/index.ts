@@ -10,5 +10,5 @@ export default interface IAiMobile {
 }
 
 export interface IAi extends IAiMobile {
-	emit(fd: IAiMobile, event: string, ...args: unknown[]): Promise<unknown>;
+	emit(mm: IAiMobile, event: string, ...args: unknown[]): Promise<unknown>;
 }
