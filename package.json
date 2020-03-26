@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/am000001",
-	"version": "1.0.202003191551",
+	"version": "1.1.202003261624",
 	"description": "通用接口",
 	"scripts": {
 		"test": "tsc -w",
