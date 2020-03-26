@@ -40,6 +40,11 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@babel/core": "latest",
+		"@react-navigation/bottom-tabs": "latest",
+		"@react-navigation/drawer": "latest",
+		"@react-navigation/material-bottom-tabs": "latest",
+		"@react-navigation/native": "latest",
+		"@react-navigation/stack": "latest",
 		"@types/react": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
@@ -53,8 +58,10 @@
 		"typescript": "next"
 	},
 	"peerDependencies": {
-		"react": "*",
-		"react-native": "*",
-		"react-navigation": "*"
+		"@react-navigation/bottom-tabs": "*",
+		"@react-navigation/drawer": "*",
+		"@react-navigation/material-bottom-tabs": "*",
+		"@react-navigation/native": "*",
+		"@react-navigation/stack": "*"
 	}
 }
